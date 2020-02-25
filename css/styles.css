@@ -6,7 +6,7 @@ body {
     background: #fff;
     color: #222;
 }
-body, td, a, p, .h {
+body, td, a, p {
     font-family: arial,sans-serif;
 }
 .logo {
@@ -152,6 +152,52 @@ nav {
 .button:hover {
     border: 1px solid #adadad;
 
+}
+.google-area {
+    line-height: 28px;
+    margin: auto;
+    width: fit-content;
+}
+.footbar {
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+    bottom: 0;
+    font-size: 10pt;
+    position: fixed;
+    width: 100%;
+    left: 0;
+}
+.footer-top {
+    margin-left: 30px;
+    text-align: left;
+    color: rgba(0,0,0,.54);
+    font-size: 15px;
+    height: 40px;
+    
+
+}
+.footer-bottom {
+    height: 40px;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 980px;
+    font-size: 13px;
+    width: 100%;
+    
+
+}
+.footer-items-right {
+    float: right;
+    margin-right: 28px;
+}
+.footer-item {
+    text-align: left;
+    color: #5f6368;
+    text-decoration: none;
+    padding-left: 27px;
+    display: inline-block;
 }
 
 @media only screen and (max-height: 768px) {
