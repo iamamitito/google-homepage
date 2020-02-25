@@ -199,6 +199,9 @@ nav {
     padding-left: 27px;
     display: inline-block;
 }
+.footer-item:hover {
+    text-decoration: underline;
+}
 
 @media only screen and (max-height: 768px) {
     .logo {
